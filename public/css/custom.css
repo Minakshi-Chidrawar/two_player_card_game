@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background: #5a535dbd;
+    color: white;
+}
+
+.headerFont {
+    font-family: 'Times New Roman', Times, serif;
+}
+.card {
+    margin: auto;
+    text-align: center;
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+}
+
+.middlecard {
+    font-size: 6rem;
+}
+
+.cardColor {
+    color: black;
+}
+
+.winner {
+    width: 70%;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-family: 'Rakkas',;
+}
+
+.alignStartWelcomeButton {
+    margin-top: 20%;
+}
