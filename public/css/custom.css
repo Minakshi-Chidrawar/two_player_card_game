@@ -36,5 +36,12 @@ body {
 }
 
 .alignStartWelcomeButton {
-    margin-top: 20%;
+    margin-top: 8%;
+}
+
+.nobullet {
+    list-style-type: none;
+    color: #08133a;
+    font-weight: 500;
+    font-size: 30px;
 }
