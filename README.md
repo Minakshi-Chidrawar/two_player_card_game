@@ -5,8 +5,7 @@ You can setup this sample manually or use [Vagrant](https://www.vagrantup.com/) 
 * Clone repo ```git clone {{repo name}}```
 * Create your .env file from the example file: ```cp .env.example .env```
 * Install composer dependencies: ```composer install```
-* Run the following commands:
-* ```php artisan key:generate```  
+* Run the command: ```php artisan key:generate``` to generate key
 * Server: run ```php artisan serve```
 * Browse to ```localhost:8000```
 
