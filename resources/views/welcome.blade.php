@@ -2,10 +2,14 @@
 
 @section('content')
     <ul class="nobullet">
-        <li>This is a two player card game</li>
+        <li>This is a two player simulation card game</li>
         <li>The game starts with a deck of cards</li>
         <li>The cards are dealt out to both players</li>
     </ul>
+
+    <div class="my-5 pb-4">
+        <a href="{{ route('startgame') }}" class="btn btn-warning">Start Game</a>
+    </div>
 
     <div class="justify-text-center" style="margin-left: 28%">
         <ol class="text-left">
@@ -15,8 +19,5 @@
             <li>This continues until the players have no cards left</li>
             <li>The player with the highest score wins</li>
         </ol>
-    </div>
-    <div class="alignStartWelcomeButton">
-        <a href="{{ route('startgame') }}" class="btn btn-warning">Start Game</a>
     </div>
 @endsection
