@@ -1,6 +1,12 @@
 <div class="row mt-5">
     <div class="offset-53">
-        <a href="{{ route('nextturn') }}" class="btn btn-warning">Next turn</a>
+        <a href="{{ route('nextturn') }}" class="btn btn-warning">
+            @if(Route::currentRouteName() === 'startgame')
+                Start game
+            @else
+                Next turn
+            @endif
+        </a>
     </div>
 </div>
 
