@@ -8,7 +8,7 @@
     </ul>
 
     <div class="my-5 pb-4">
-        <a href="{{ route('startgame') }}" class="btn btn-warning">Start Game</a>
+        <a href="{{ route('startgame') }}" class="btn btn-warning">Start game</a>
     </div>
 
     <div class="justify-text-center" style="margin-left: 28%">
