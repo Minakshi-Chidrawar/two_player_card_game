@@ -4,7 +4,7 @@
             @if(Route::currentRouteName() === 'startgame')
                 Start game
             @else
-                Next turn
+                &nbsp;Next turn&nbsp;
             @endif
         </a>
     </div>
@@ -12,6 +12,6 @@
 
 <div class="row my-4">
     <div class="offset-525">
-        <a href="{{ route('startgame') }}" class="btn btn-danger">New Game</a>
+        <a href="{{ route('startgame') }}" class="btn btn-danger">New game</a>
     </div>
 </div>
